@@ -20,7 +20,7 @@ class ViewController: UIViewController, RequestDelegate, STPPaymentContextDelega
         self.paymentContext = STPPaymentContext(customerContext: customerContext)
         self.paymentContext?.delegate = self
         self.paymentContext?.hostViewController = self
-        self.paymentContext?.paymentAmount = 5000
+        self.paymentContext?.paymentAmount = 5000 //это для примера, вообще это на сервере устанавливается
     }
     
     //MARK: - action methods
